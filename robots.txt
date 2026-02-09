@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://haoyang5.github.io/sitemap.xml
+Sitemap: https://haoyang5.github.io/howard//sitemap.xml
