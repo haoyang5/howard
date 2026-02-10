@@ -141,7 +141,10 @@ cv:
     Publications:
       - title: ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine
         authors:
-          - Hao Yang, Linfeng Du, Shangkun Li, and Wei Zhang
+          - "Hao Yang"
+          - "Linfeng Du"
+          - "Shangkun Li"
+          - "Wei Zhang"
         publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
         releaseDate: 2025-09-19
         url: https://ieeexplore.ieee.org/abstract/document/11173669
@@ -149,7 +152,10 @@ cv:
 
       - title: ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine
         authors:
-          - Hao Yang, Linfeng Du, Shangkun Li, and Wei Zhang
+          - "Hao Yang"
+          - "Linfeng Du"
+          - "Shangkun Li"
+          - "Wei Zhang"
         publisher: Design Automation Conference Work-in-Progress Poster
         releaseDate: 2025-09-19
     
