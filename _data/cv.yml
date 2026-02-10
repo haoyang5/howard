@@ -138,7 +138,7 @@ cv:
 
         
     Publications:
-      - title: ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine
+      - title: "ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine"
         authors:
           - "Hao Yang"
           - "Linfeng Du"
@@ -149,7 +149,7 @@ cv:
         url: https://ieeexplore.ieee.org/abstract/document/11173669
         summary: This paper proposes the ESFA framework, which can efficiently and automatically implement a scalable FFT on the Versal ACAP with multiple AIEs.
 
-      - title: ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine
+      - title: "ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine"
         authors:
           - "Hao Yang"
           - "Linfeng Du"
