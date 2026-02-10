@@ -27,8 +27,8 @@ cv:
         studyType: Master of Philosophy
         start_date: 2022
         end_date: 2024
-        #highlights:
-        #  - Description 1.
+        highlights:
+         - "GPA: 3.74/4.3"
         #  - Description 2.
         
       - institution: City University of Hong Kong
@@ -40,9 +40,8 @@ cv:
         end_date: 2022
         score: "3.99/4.3"
         # courses: ""
-        # highlights:
-        #  - Description 1.
-        #  - Description 2.
+        highlights:
+         - "GPA: 3.99/4.3"
 
 
     Experience:
@@ -102,7 +101,7 @@ cv:
       - title: College of Engineering Dean’s List
         authors:
           - "City University of Hong Kong"
-        date: 2019
+        date: 2019, 2020, 2021
         awarder: City University of Hong Kong
         
       - title: HKSAR Government Scholarship Fund
@@ -122,8 +121,7 @@ cv:
           - "HKSAR Government"
         date: 2019
         awarder: HKSAR Government
-        summary: Awards scholarships to outstanding local and non-local full-time students in publicly funded sub-degree and above programs across UGC-funded universities and selected institutions, including the Scholarship for Outstanding Performance for non-local degree students (HK$80,000 per year).
-
+       
       - title: CityU Mainland Student Scholarship Scheme - Full Tuition Scholarship
         authors:
           - "City University of Hong Kong"
