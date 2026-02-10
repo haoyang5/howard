@@ -65,12 +65,21 @@ cv:
 
 
     Volunteer:
-      - company: City University of Hong Kong
+      - company: CityU EE Gifted Education Fund Programme 2021
         position: Tutor
         location: Hong Kong
         start_date: 2021-02
         end_date: 2022-01
         summary: The programme was divided into phases, starting with AI/IoT fundamentals, followed by programming, and hands-on laboratory sessions to build CNN models.
+        # highlights:
+        #   - "Awarded"
+
+      - company: IEEE HK Section
+        position: Webmaster
+        location: Hong Kong
+        start_date: 2022
+        end_date: 2025
+        summary: Maintained and updated the IEEE Hong Kong Section website, ensuring content accuracy and reliable site operation.
         # highlights:
         #   - "Awarded"
 
