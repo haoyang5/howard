@@ -58,8 +58,8 @@ cv:
       - company: City University of Hong Kong
         position: Research Assistant
         location: Hong Kong
-        start_date: 2020-05
-        end_date: 2020-09
+        start_date: 2020-05-01
+        end_date: 2020-09-01
         summary: Supported FPGA and embedded-systems projects by contributing to design, implementation, debugging, and performance optimization across hardware and software components.
         #  - Relativity
 
@@ -68,8 +68,8 @@ cv:
       - company: CityU EE Gifted Education Fund Programme 2021
         position: Tutor
         location: Hong Kong
-        start_date: 2021-02
-        end_date: 2022-01
+        start_date: 2021-02-01
+        end_date: 2022-01-01
         summary: The programme was divided into phases, starting with AI/IoT fundamentals, followed by programming, and hands-on laboratory sessions to build CNN models.
         # highlights:
         #   - "Awarded"
@@ -156,7 +156,7 @@ cv:
           - "Shangkun Li"
           - "Wei Zhang"
         publisher: Design Automation Conference Work-in-Progress Poster
-        releaseDate: 2025-09-19
+        releaseDate: 2024-06-27
     
     Skills:
       - name: FPGA
