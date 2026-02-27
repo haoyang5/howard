@@ -112,9 +112,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/howard/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+            },},{id: "teachings-guest-lecture-on-fpga-programming-and-high-level-synthesis-hls",
+          title: 'Guest Lecture on FPGA programming and high-level synthesis (HLS)',
+          description: "This guest lecture is for the course ENSC 453/845 “Programming for Heterogeneous Computing Systems” at Simon Fraser University.",
           section: "Teachings",handler: () => {
               window.location.href = "/howard/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
