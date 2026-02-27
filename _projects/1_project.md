@@ -8,20 +8,14 @@ category: 2025
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    Developed an accelerator on the Xilinx VCK190 platform to improve the throughput and efficiency of large-scale point FFT computations.
     ---
 
-<div class="row">
+The fast fourier transform (FFT) is widely used to convert a time-domain signal into its frequency-domain representation in various fields. Previous works have demonstrated efficient FFT implementation on various accelerators. The emergence of AI Engines (AIE) on AMD Xilinx’s Versal ACAP brings the possibility of further improvement in computing efficiency. However, previous solutions have been restricted to a single-AIE manner, which limits the FFT size and neglects the potential of employing multiple AIEs. This paper proposes the ESFA framework, which can efficiently and automatically implement a scalable FFT on the Versal ACAP with multiple AIEs. The framework includes an analytical model to report the quality of results (QoRs) estimation for legal FFT partition modes, comprehensively covering the throughput-resource trade-off choices across the design space. In addition, the layout problem is formulated in an ILP to enhance the area efficiency. The framework also incorporates an automatic code generator to enable an agile implementation of the desired design. Our experiments on the VCK190 board show that we achieve 9,226/2,059 MS/s simulation/system throughput on the 1K-point FFT with a data width of 32, which obtains up to 10.1x speedup compared with AMD Xilinx’s library targeting AIE, meanwhile, 17.5x, 23.2x, and 0.9x speedup compared to the state-of-the-art designs on ASIC, CGRA, FPGA.
+
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -33,49 +27,5 @@ To give your project a background in the portfolio page, just add the img tag to
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles. -->
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
