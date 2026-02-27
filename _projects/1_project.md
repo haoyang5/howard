@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: ESFA
+description: Efficiently large point FFT Acceleration on Versal ACAP architecture
+img: assets/publication_preview/versal-tile2.png
 importance: 1
-category: work
+category: 2025
 related_publications: true
 ---
 
