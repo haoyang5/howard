@@ -5,6 +5,7 @@ category: 2026
 description: This guest lecture is for the course ENSC 453/845 “Programming for Heterogeneous Computing Systems” at Simon Fraser University.
 year: 2026
 term: Spring
+instructor: 
 location: Online
 time: Feb 12, 2026, 8:30–10:20am
 course_id: Guest Lecture
