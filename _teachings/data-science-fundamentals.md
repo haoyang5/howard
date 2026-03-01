@@ -9,7 +9,6 @@ term: Spring
 location: Online
 time: Feb 12, 2026, 8:30–10:20am
 course_id: Guest Lecture
-
 ---
 
 ## Lecture Overview
