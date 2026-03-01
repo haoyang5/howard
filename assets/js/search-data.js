@@ -117,11 +117,6 @@ ninja.data = [{
           description: "This guest lecture is for the course ENSC 453/845 “Programming for Heterogeneous Computing Systems” at Simon Fraser University.",
           section: "Teachings",handler: () => {
               window.location.href = "/howard/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/howard/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-cv',
         title: 'CV',
