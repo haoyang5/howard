@@ -19,7 +19,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Slides
         url: /assets/pdf/example_pdf.pdf
-
   - week: 2
     date: Sept 12
     topic: Linear Regression
@@ -29,7 +28,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Assignment 1
         url: /assets/pdf/example_pdf.pdf
-
   - week: 3
     date: Sept 19
     topic: Classification
@@ -39,7 +37,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Coding Lab
         url: https://github.com/
-
   - week: 4
     date: Sept 26
     topic: Decision Trees and Random Forests
@@ -49,7 +46,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Assignment 2
         url: /assets/pdf/example_pdf.pdf
-
   - week: 5
     date: Oct 3
     topic: Support Vector Machines
@@ -59,12 +55,10 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Review Materials
         url: /assets/pdf/example_pdf.pdf
-
   - week: 6
     date: Oct 10
     topic: Midterm Exam
     description: Covers weeks 1-5.
-
   - week: 7
     date: Oct 17
     topic: Neural Networks Fundamentals
@@ -74,7 +68,6 @@ schedule:
         url: /assets/pdf/example_pdf.pdf
       - name: Assignment 3
         url: /assets/pdf/example_pdf.pdf
-
   - week: 8
     date: Oct 24
     topic: Deep Learning
