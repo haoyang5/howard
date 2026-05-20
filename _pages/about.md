@@ -6,7 +6,7 @@ subtitle: <a href='#'>PhD Student</a>. If you aim at the moon, even if you are l
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Science and Engineering Hall</p>
